@@ -6,8 +6,7 @@
 [Stoic Reflections](https://stoicreflections.com)
 
 A self filling calendar based on the design used [on stoicreflections.com](https://stoicreflections.com/collections/memento-mori-life-calendar-chart-poster-frame). 
-
-The code is hybrid of [sunday](https://github.com/ronilaukkarinen/sunday) and [mementoMori](https://github.com/afonsocrg/mementoMori) (huge thanks to JS belongs to [afonsocrg](https://github.com/afonsocrg)).
+The code is hybrid of [sunday](https://github.com/ronilaukkarinen/sunday) and [mementoMori](https://github.com/afonsocrg/mementoMori) (huge thanks to JS belongs to [afonsocrg](https://github.com/afonsocrg)) + bunch of my own additions.
 
 ## Features
 
