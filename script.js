@@ -140,6 +140,16 @@ events = [
     'color': '#3ef806',
   },
   {
+    'date': new Date('2010-03-30'),
+    'description': 'Muutto Kangaslammelle',
+    'color': '#f8f806',
+  },
+  {
+    'date': new Date('2013-05-02'),
+    'description': 'Muutto Rasinrinteelle',
+    'color': '#f8f806',
+  },
+  {
     'date': new Date('2013-05-02'),
     'description': 'Muutto Rasinrinteelle',
     'color': '#f8f806',
@@ -155,6 +165,11 @@ events = [
     'color': '#7effe1',
   },
   {
+    'date': new Date('2015-08-01'),
+    'description': 'Muutto Vapaudenkadulle',
+    'color': '#f8f806',
+  },
+  {
     'date': new Date('2008-03-28'),
     'description': 'Kihloihin Veeran kanssa',
     'color': '#f806cc',
@@ -168,6 +183,11 @@ events = [
     'date': new Date('2019-01-15'),
     'description': 'Isän kuolema',
     'color': '#362222',
+  },
+  {
+    'date': new Date('2022-08-01'),
+    'description': 'Muutto Vaihdekujalle',
+    'color': '#f8f806',
   },
 ]
 
