@@ -109,7 +109,6 @@ body {
   border-color: currentColor;
   border-radius: 0;
   position: relative;
-  z-index: 2;
 }
 
 .invisible {
@@ -139,7 +138,6 @@ body {
 /* Tooltips */
 [data-tooltip] {
   cursor: default;
-  position: relative;
 }
 
 [data-tooltip]:hover {
@@ -158,12 +156,12 @@ body {
   left: 50%;
   max-width: 160px;
   min-width: 60px;
-  padding: 6px 6px 8px;
+  padding: 6px;
   position: absolute;
   text-align: left;
   transform: translate(-50%);
   width: max-content;
-  z-index: 5;
+  z-index: 10000;
 }
 
 [data-tooltip]:hover::after {
