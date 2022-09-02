@@ -89,6 +89,29 @@ body {
   border-color: var(--color-dark-gray-filled);
 }
 
+@keyframes pulse {
+  0% {
+    border-radius: 0;
+    box-shadow: 0 0 0 0 currentColor;
+  }
+  70% {
+    border-radius: 25%;
+    box-shadow: 0 0 0 3px currentColor;
+  }
+  100% {
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 currentColor;
+  }
+}
+
+.week-cell.has-tooltip {
+  animation: pulse 2s alternate infinite;
+  border-color: currentColor;
+  border-radius: 0;
+  position: relative;
+  z-index: 2;
+}
+
 .invisible {
   border: 1px solid var(--color-background);
 }
@@ -131,16 +154,16 @@ body {
   color: var(--color-white);
   content: attr(data-tooltip);
   display: block;
-  font-size: 14px;
+  font-size: 12px;
   left: 50%;
   max-width: 160px;
   min-width: 60px;
-  padding: 10px 10px 14px;
+  padding: 6px 6px 8px;
   position: absolute;
   text-align: left;
   transform: translate(-50%);
   width: max-content;
-  z-index: 1;
+  z-index: 5;
 }
 
 [data-tooltip]:hover::after {

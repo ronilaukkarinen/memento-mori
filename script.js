@@ -115,6 +115,7 @@ function write_life_event(life_event) {
         return;
     }
 
+    week_div.style.color = life_event['color'];
     week_div.style.borderColor = life_event['color'];
     week_div.style.backgroundColor = life_event['color'];
 
@@ -137,6 +138,11 @@ events = [
     'date': new Date('2009-03-30'),
     'description': 'Lotan syntymä',
     'color': '#3ef806',
+  },
+  {
+    'date': new Date('2013-05-02'),
+    'description': 'Muutto Rasinrinteelle',
+    'color': '#f8f806',
   },
   {
     'date': new Date('2013-08-26'),
