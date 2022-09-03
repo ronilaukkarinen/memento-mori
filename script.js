@@ -135,14 +135,60 @@ function write_life_event(life_event) {
 
 events = [
   {
+    'date': new Date('2004-07-30'),
+    'description': '1. ulkomaanmatka',
+    'color': '#e806f8',
+  },
+  {
+    'date': new Date('2007-07-02'),
+    'description': 'Lakkiaiset',
+    'color': '#06f8bc',
+  },
+  {
+    'date': new Date('2007-06-01'),
+    'description': 'Ensitapaaminen IRCissä Veeran kanssa',
+    'color': '#f8312f',
+    'icon': '❤️',
+  },
+  {
+    'date': new Date('2007-06-11'),
+    'description': 'Siviilipalvelus alkaa',
+    'color': '#06f8bc',
+  },
+  {
+    'date': new Date('2007-12-25'),
+    'description': 'Muutto omilleen',
+    'color': '#f8f806',
+  },
+  {
+    'date': new Date('2008-06-01'),
+    'description': 'Muutto Kauppakadulle',
+    'color': '#f8f806',
+  },
+  {
     'date': new Date('2009-03-30'),
     'description': 'Lotan syntymä',
     'color': '#3ef806',
   },
   {
+    'date': new Date('2009-09-07'),
+    'description': 'Töihin Data Groupille',
+    'color': '#06f8bc',
+  },
+  {
+    'date': new Date('2010-03-16'),
+    'description': 'Vanhempien ero',
+    'color': '#362222',
+  },
+  {
     'date': new Date('2010-03-30'),
     'description': 'Muutto Kangaslammelle',
     'color': '#f8f806',
+  },
+  {
+    'date': new Date('2010-12-07'),
+    'description': 'Töihin TWIDille',
+    'color': '#06f8bc',
   },
   {
     'date': new Date('2013-05-02'),
@@ -161,8 +207,8 @@ events = [
   },
   {
     'date': new Date('2013-05-22'),
-    'description': 'Digitoimisto Dude Oy',
-    'color': '#7effe1',
+    'description': 'Oman yrityksen perustaminen',
+    'color': '#06f8bc',
   },
   {
     'date': new Date('2015-08-01'),
@@ -172,17 +218,31 @@ events = [
   {
     'date': new Date('2008-03-28'),
     'description': 'Kihloihin Veeran kanssa',
-    'color': '#f806cc',
+    'color': '#f8312f',
+    'icon': '❤️',
   },
   {
     'date': new Date('2008-07-02'),
     'description': 'Naimisiin Veeran kanssa',
-    'color': '#f806cc',
+    'color': '#f8312f',
+    'icon': '❤️',
+  },
+  {
+    'date': new Date('2018-02-07'),
+    'description': '10-vuotishääpäivä',
+    'color': '#f8312f',
+    'icon': '❤️',
   },
   {
     'date': new Date('2019-01-15'),
     'description': 'Isän kuolema',
     'color': '#362222',
+    'icon': '💀',
+  },
+  {
+    'date': new Date('2020-08-09'),
+    'description': 'Alkoholinkäytön lopettaminen',
+    'color': '#f88b06',
   },
   {
     'date': new Date('2022-08-01'),

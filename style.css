@@ -20,7 +20,6 @@
   grid-gap: var(--month-gap);
   grid-template-columns: repeat(var(--columns-per-row), auto);
   padding-top: 60px;
-  transition: all 150ms;
   width: 100%;
 }
 
@@ -80,7 +79,6 @@ body {
   display: inline-flex;
   height: var(--week-size);
   justify-content: center;
-  transition: all 150ms;
   width: var(--week-size);
 }
 
@@ -93,22 +91,30 @@ body {
   0% {
     border-radius: 0;
     box-shadow: 0 0 0 0 currentColor;
+    font-size: 7px;
   }
-  70% {
+  50% {
     border-radius: 25%;
     box-shadow: 0 0 0 3px currentColor;
+    font-size: 15px;
   }
   100% {
-    border-radius: 50%;
+    border-radius: 0;
     box-shadow: 0 0 0 0 currentColor;
+    font-size: 7px;
   }
 }
 
 .week-cell.has-tooltip {
-  animation: pulse 2s alternate infinite;
+  /* animation: pulse 2s infinite; */
   border-color: currentColor;
   border-radius: 0;
+  font-size: 7px;
   position: relative;
+}
+
+.week-cell:not(.filled) {
+  opacity: .8;
 }
 
 .invisible {
@@ -154,11 +160,11 @@ body {
   display: block;
   font-size: 12px;
   left: 50%;
-  max-width: 160px;
+  max-width: 170px;
   min-width: 60px;
   padding: 6px;
   position: absolute;
-  text-align: left;
+  text-align: center;
   transform: translate(-50%);
   width: max-content;
   z-index: 10000;
