@@ -135,6 +135,21 @@ function write_life_event(life_event) {
 
 events = [
   {
+    'date': new Date('1995-08-14'),
+    'description': 'Tammirinteen ala-aste 1. luokka',
+    'color': '#18aedb',
+  },
+  {
+    'date': new Date('1997-08-11'),
+    'description': 'Koulun vaihto kristilliseen kouluun',
+    'color': '#18aedb',
+  },
+  {
+    'date': new Date('1999-05-07'),
+    'description': 'Ensimmäiset kotisivut nettiin',
+    'color': '#e806f8',
+  },
+  {
     'date': new Date('2004-07-30'),
     'description': '1. ulkomaanmatka',
     'color': '#e806f8',
@@ -142,7 +157,7 @@ events = [
   {
     'date': new Date('2007-07-02'),
     'description': 'Lakkiaiset',
-    'color': '#06f8bc',
+    'color': '#18aedb',
   },
   {
     'date': new Date('2007-06-01'),
@@ -153,7 +168,7 @@ events = [
   {
     'date': new Date('2007-06-11'),
     'description': 'Siviilipalvelus alkaa',
-    'color': '#06f8bc',
+    'color': '#18aedb',
   },
   {
     'date': new Date('2007-12-25'),
@@ -173,7 +188,7 @@ events = [
   {
     'date': new Date('2009-09-07'),
     'description': 'Harjoitteluun Data Groupille',
-    'color': '#06f8bc',
+    'color': '#18aedb',
   },
   {
     'date': new Date('2010-03-16'),
@@ -188,7 +203,7 @@ events = [
   {
     'date': new Date('2010-12-07'),
     'description': 'Ensimmäinen työpaikka',
-    'color': '#06f8bc',
+    'color': '#18aedb',
   },
   {
     'date': new Date('2013-05-02'),
@@ -208,7 +223,7 @@ events = [
   {
     'date': new Date('2013-05-22'),
     'description': 'Oman yrityksen perustaminen',
-    'color': '#06f8bc',
+    'color': '#18aedb',
   },
   {
     'date': new Date('2015-08-01'),
@@ -257,7 +272,7 @@ events = [
   {
     'date': new Date('2023-05-22'),
     'description': '10 vuotta yrittäjänä',
-    'color': '#06f8bc',
+    'color': '#18aedb',
   },
 ]
 
