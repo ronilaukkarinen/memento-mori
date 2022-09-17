@@ -172,13 +172,13 @@ events = [
   },
   {
     'date': new Date('2009-09-07'),
-    'description': 'Töihin Data Groupille',
+    'description': 'Harjoitteluun Data Groupille',
     'color': '#06f8bc',
   },
   {
     'date': new Date('2010-03-16'),
     'description': 'Vanhempien ero',
-    'color': '#362222',
+    'color': '#222222',
   },
   {
     'date': new Date('2010-03-30'),
@@ -187,7 +187,7 @@ events = [
   },
   {
     'date': new Date('2010-12-07'),
-    'description': 'Töihin TWIDille',
+    'description': 'Ensimmäinen työpaikka',
     'color': '#06f8bc',
   },
   {
@@ -236,7 +236,7 @@ events = [
   {
     'date': new Date('2019-01-15'),
     'description': 'Isän kuolema',
-    'color': '#362222',
+    'color': '#222222',
     'icon': '💀',
   },
   {
@@ -245,9 +245,19 @@ events = [
     'color': '#f88b06',
   },
   {
+    'date': new Date('2022-07-21'),
+    'description': '-20kg, paino 73kg',
+    'color': '#f88b06',
+  },
+  {
     'date': new Date('2022-08-01'),
     'description': 'Muutto Vaihdekujalle',
     'color': '#f8f806',
+  },
+  {
+    'date': new Date('2023-05-22'),
+    'description': '10 vuotta yrittäjänä',
+    'color': '#06f8bc',
   },
 ]
 

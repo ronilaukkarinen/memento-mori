@@ -126,6 +126,15 @@ body {
   gap: var(--week-gap);
 }
 
+.year-wrapper {
+  position: relative;
+  z-index: 0;
+}
+
+.year-wrapper:hover {
+  z-index: 99999999;
+}
+
 .month-cell {
   display: flex;
   gap: var(--week-gap);
@@ -144,6 +153,7 @@ body {
 /* Tooltips */
 [data-tooltip] {
   cursor: default;
+  position: relative;
 }
 
 [data-tooltip]:hover {
@@ -167,7 +177,7 @@ body {
   text-align: center;
   transform: translate(-50%);
   width: max-content;
-  z-index: 10000;
+  z-index: 20000;
 }
 
 [data-tooltip]:hover::after {
