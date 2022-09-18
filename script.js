@@ -260,6 +260,11 @@ events = [
     'color': '#f88b06',
   },
   {
+    'date': new Date('2020-09-10'),
+    'description': 'Veloista 100% eroon pääseminen',
+    'color': '#f88b06',
+  },
+  {
     'date': new Date('2022-07-21'),
     'description': '-20kg, paino 73kg',
     'color': '#f88b06',
