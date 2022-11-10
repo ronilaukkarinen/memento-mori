@@ -22,7 +22,7 @@ function returnWeeks(birthday) {
 
 // Get how many weeks are left
 weeksLeft = returnWeeks(myBirthDay);
-progress = weeksLeft + ' weeks left of all total ' + Math.ceil(totalWeeksInLife) + ' weeks available.';
+progress = Math.ceil(totalWeeksInLife) - Math.ceil(weeksLeft) + ' weeks lived. ' + weeksLeft + ' weeks left of all total ' + Math.ceil(totalWeeksInLife) + ' weeks available.';
 
 // Fill calendar with year cells
 function populate_calendar(birthday, numYears) {
