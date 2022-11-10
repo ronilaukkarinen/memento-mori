@@ -242,3 +242,32 @@ body {
     color: #c9d1d9;
   }
 }
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.github-link-wrapper {
+  margin: 0 auto;
+  max-width: var(--calendar-width);
+  padding: 0 2rem;
+  width: calc(100% - 4rem);
+}
+
+.github-link-wrapper a {
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 12px;
+  display: inline-flex;
+  gap: .6rem;
+  align-items: center;
+}
