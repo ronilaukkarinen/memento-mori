@@ -67,10 +67,11 @@ function spawn_year(_year, birthday) {
             week_div = document.createElement('div');
             week_div.id = `${_year}-${i+1}-${j+1}`;
             week_div.classList.add('week-cell');
-            week_date_epoch = new Date(`${_year}-${i+1}-${j+1}`).getTime();
+            week_date_epoch = new Date(`${_year}-${i+1}-${(j==0 ? 1 : Math.floor(j*num_days_per_square))}`).getTime();
             today_epoch = new Date().getTime();
 
-            if(week_date_epoch < today_epoch) {
+            // use <= to fill the first week cell on the first day of a month
+            if(week_date_epoch <= today_epoch) {
               week_div.classList.add('filled');
             }
 
