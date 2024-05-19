@@ -66,6 +66,14 @@ body {
   transform: translateX(5px);
 }
 
+@media (max-width: 660px) {
+  .stats.wrapper {
+    max-width: 80%;
+    text-align: center;
+    transform: none;
+  }
+}
+
 @media screen {
   .calendar {
     justify-content: center;
