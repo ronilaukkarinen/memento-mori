@@ -263,6 +263,7 @@ body {
   padding: 0;
   position: absolute;
   width: 1px;
+  /* stylelint-disable-next-line */
   word-wrap: normal !important;
 }
 
