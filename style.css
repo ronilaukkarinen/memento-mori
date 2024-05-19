@@ -73,10 +73,8 @@ body {
   }
 }
 
-.week-cell.invisible,
 .week-cell {
   align-items: center;
-  background-color: transparent;
   border: 1px solid var(--color-dark-gray);
   display: inline-flex;
   height: var(--week-size);
@@ -85,7 +83,9 @@ body {
 }
 
 .week-cell.filled {
+  /* stylelint-disable-next-line */
   background-color: var(--color-dark-gray-filled);
+  /* stylelint-disable-next-line */
   border-color: var(--color-dark-gray-filled);
 }
 
