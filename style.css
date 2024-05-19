@@ -267,7 +267,7 @@ body {
 }
 
 .github-link-wrapper {
-  margin: 0 auto;
+  margin: 0 auto 60px;
   max-width: var(--calendar-width);
   padding: 0 2rem;
   width: calc(100% - 4rem);
