@@ -30,7 +30,7 @@ body {
   padding: 0;
 }
 
-@page {
+@page  {
   size: a4 portrait;
 }
 
@@ -73,8 +73,10 @@ body {
   }
 }
 
+.week-cell.invisible,
 .week-cell {
   align-items: center;
+  background-color: transparent;
   border: 1px solid var(--color-dark-gray);
   display: inline-flex;
   height: var(--week-size);
@@ -82,7 +84,7 @@ body {
   width: var(--week-size);
 }
 
-.week-cell.filled:not(.invisible) {
+.week-cell.filled {
   background-color: var(--color-dark-gray-filled);
   border-color: var(--color-dark-gray-filled);
 }
@@ -93,11 +95,13 @@ body {
     box-shadow: 0 0 0 0 currentColor;
     font-size: 7px;
   }
+
   50% {
     border-radius: 25%;
     box-shadow: 0 0 0 3px currentColor;
     font-size: 15px;
   }
+
   100% {
     border-radius: 0;
     box-shadow: 0 0 0 0 currentColor;
@@ -117,8 +121,12 @@ body {
   opacity: .8;
 }
 
+.week-cell.invisible,
 .invisible {
-  border: 1px solid var(--color-background);
+  /* stylelint-disable-next-line */
+  background-color: var(--color-background) !important;
+  /* stylelint-disable-next-line */
+  border: 1px solid var(--color-background) !important;
 }
 
 .year-cell {
@@ -136,8 +144,9 @@ body {
 }
 
 .month-cell {
-  display: flex;
+  display: grid;
   gap: var(--week-gap);
+  grid-template-columns: repeat(4, calc(var(--week-size) + var(--week-gap)));
   max-width: var(--month-cell-width);
   transition: all 150ms;
 }
@@ -200,6 +209,7 @@ body {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -264,10 +274,10 @@ body {
 }
 
 .github-link-wrapper a {
-  color: var(--color-white);
-  text-decoration: none;
-  font-size: 12px;
-  display: inline-flex;
-  gap: .6rem;
   align-items: center;
+  color: var(--color-white);
+  display: inline-flex;
+  font-size: 12px;
+  gap: .6rem;
+  text-decoration: none;
 }
